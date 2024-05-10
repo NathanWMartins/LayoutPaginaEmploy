@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:0;    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: -20px;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+header img {
+    margin-left: 70px;
+}
+
+header nav {
+    display: flex;
+    margin-left: 30px;
+}
+
+header nav select {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+select {
+    border: none;
+}
+
+.actions {
+    display: flex;
+    margin-left: 170px;
+}
+
+.actions li {
+    list-style: none;
+    margin-right: -20px;
+    align-self: flex-start;
+    font-size: 14px;
+}
+
+.actionsButtons button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.1s ease;
+}
+
+header ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+button[data-value="Get_Started"] {
+    background-color: #1EA358;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.persuasive-text {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.persuasive-text {
+    background-color: white;
+    width: 100%;
+    height: 160px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.persuasive-text h1 {
+    color: #1EA358;
+    margin-bottom: 10px;
+}
+
+.credit-card-text {
+    color: black;
+    font-size: 14px;
+}
+
+.plans-comparison {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panels-container {
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: -150px;
+}
+
+.panel {
+    display: flex;
+    flex: 1 0 15%;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #1EA358;
+    background-color: #ffffff;
+    text-align: center;
+    transition: border 0.1s linear;
+}
+
+.panel h2{
+    margin:0;
+    margin-bottom: 10px;
+    transition: color 0.1s linear;
+}
+
+.panel:hover {
+    border: 3px solid #1EA358;
+    transition: linear;
+    background-color: #1EA358;
+}
+.panel:hover h2, h1, p{
+    color: white;
+}
+.panel:hover h1{
+    color: white;
+}
+.panel:hover p{
+    color: white;
+}
+.panel h1{
+    color: #1EA358;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.panel:hover button{
+    background-color: white;
+    color: black;
+}
+
+.panel p{
+    font-size: 10px;
+    color: black;
+}
+
+.content-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.panels-container button{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.1s ease;
+    
+}
+
+button[data-value="Sign_Free"] {
+    background-color: #1EA358;
+    color: white;
+    margin-bottom: 10px;
+}
+button[data-value="Free_Trial"] {
+    background-color: #1EA358;
+    color: white;
+}
+
+.menu:hover {
+    color: #1EA358;
+}
